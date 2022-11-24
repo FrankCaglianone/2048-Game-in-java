@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GridTest
+comment0.text=\n\ The\ test\ class\ GridTest.\n\n\ @author\ \ (Raffaele\ Perri,\ Francesco\ Caglianone)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=GridTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ GridTest\n
+comment2.params=
+comment2.target=void\ testGrid()
+comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+numComments=3

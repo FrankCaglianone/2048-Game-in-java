@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\n\ This\ is\ the\ class\ that\ starts\ the\ game.\n\n\ @author\ perrir@usi.ch,\ caglif@usi.ch\n\ @version\ (05.05.2022)\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Main\ method.\n
+numComments=2

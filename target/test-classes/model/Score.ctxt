@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Score
+comment0.text=\n\ Write\ a\ description\ of\ class\ Score\ here.\n\n\ @author\ perrir@usi.ch,\ caglif@usi.ch\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=grid
+comment1.target=Score(Grid)
+comment1.text=\n\ Constructor\ of\ class\ Score.\n\ @param\ grid\ is\ the\ grid\ on\ which\ play.\n\ @param\ spawn\ are\ the\ numbers\ that\ spawn\ on\ the\ grid.\n\ @param\ game\ are\ the\ conditions\ for\ check\ movements.\n
+comment2.params=
+comment2.target=java.lang.String\ getScore()
+comment2.text=\n\ This\ method\ set\ how\ the\ score\ is\ counted\ during\ a\ game.\n\ @return\ a\ string\ that\ takes\ the\ value\ of\ the\ score.\n
+numComments=3

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="/home/francesco/project-2048-s-game/src/model/Game.java">
+</file>
+<file name="/home/francesco/project-2048-s-game/src/gui/FrameStart.java">
+</file>
+<file name="/home/francesco/project-2048-s-game/src/tui/TUI.java">
+<error line="83" column="30" severity="warning" message="Avoid using corresponding octal or Unicode escape." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalTokenTextCheck"/>
+</file>
+</checkstyle>

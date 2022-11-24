@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BugSpawnTest
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ resetBuggedGrid()
+comment3.params=
+comment3.target=void\ testSpawn()
+comment4.params=expectedGrid
+comment4.target=void\ compareGridToExpected(int[][])
+comment5.params=
+comment5.target=int[][]\ expectedGrid()
+numComments=6

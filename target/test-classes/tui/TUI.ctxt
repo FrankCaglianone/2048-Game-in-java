@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TUI
+comment0.text=\n\ Write\ a\ description\ of\ class\ TUI\ here.\n\n\ @author\ perrir@usi.ch,\ caglif@usi.ch\n\ @version\ (05.11.2022)\n
+comment1.params=
+comment1.target=TUI()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ TUI.\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\n\ Method\ that\ run\ the\ game.\n
+comment3.params=
+comment3.target=void\ motion()
+comment3.text=\n\ Checks\ the\ command\ given\ and\ executes\ it.\n
+comment4.params=
+comment4.target=void\ print()
+comment4.text=\n\ This\ method\ prints\ the\ grid\ after\ making\ it.\n
+comment5.params=
+comment5.target=void\ enterPlayer()
+comment5.text=\n\ This\ method\ let\ you\ enter\ the\ player\ name\ before\ the\ game\ starts.\n
+comment6.params=
+comment6.target=void\ youWon()
+comment6.text=\n\ Print\ if\ you\ won\ the\ game.\n
+numComments=7

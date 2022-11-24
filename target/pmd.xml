@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2022-05-30T13:03:15.741">
+<file name="/home/francesco/project-2048-s-game/src/gui/Main.java">
+<violation beginline="8" endline="16" begincolumn="19" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="gui" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/home/francesco/project-2048-s-game/src/model/Game.java">
+<violation beginline="104" endline="106" begincolumn="9" endcolumn="9" rule="SimplifyBooleanReturns" ruleset="Design" package="model" class="Game" method="isGameOver" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#simplifybooleanreturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+</file>
+<file name="/home/francesco/project-2048-s-game/src/model/Grid.java">
+<violation beginline="26" endline="26" begincolumn="9" endcolumn="20" rule="MethodReturnsInternalArray" ruleset="Best Practices" package="model" class="Grid" method="getGrid" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#methodreturnsinternalarray" priority="3">
+Returning 'grid' may expose an internal array.
+</violation>
+</file>
+<file name="/home/francesco/project-2048-s-game/src/model/Motion.java">
+<violation beginline="12" endline="12" begincolumn="19" endcolumn="20" rule="UnusedPrivateField" ruleset="Best Practices" package="model" class="Motion" variable="sp" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'sp'.
+</violation>
+<violation beginline="12" endline="12" begincolumn="13" endcolumn="21" rule="SingularField" ruleset="Design" package="model" class="Motion" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'sp' could be replaced by a local variable.
+</violation>
+<violation beginline="31" endline="75" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" package="model" class="Motion" method="rightMove" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'rightMove()' has a cyclomatic complexity of 12.
+</violation>
+<violation beginline="80" endline="122" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" package="model" class="Motion" method="leftMove" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'leftMove()' has a cyclomatic complexity of 12.
+</violation>
+<violation beginline="127" endline="170" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" package="model" class="Motion" method="upMove" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'upMove()' has a cyclomatic complexity of 12.
+</violation>
+<violation beginline="175" endline="218" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" package="model" class="Motion" method="downMove" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'downMove()' has a cyclomatic complexity of 12.
+</violation>
+</file>
+<file name="/home/francesco/project-2048-s-game/src/tui/Main.java">
+<violation beginline="10" endline="20" begincolumn="1" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="tui" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/home/francesco/project-2048-s-game/src/tui/TUI.java">
+<violation beginline="24" endline="24" begincolumn="13" endcolumn="22" rule="SingularField" ruleset="Design" package="tui" class="TUI" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'sc' could be replaced by a local variable.
+</violation>
+<violation beginline="63" endline="63" begincolumn="20" endcolumn="37" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="tui" class="TUI" method="motion" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="64" endline="64" begincolumn="17" endcolumn="46" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Best Practices" package="tui" class="TUI" method="motion" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincaseinsensitivecomparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+<violation beginline="67" endline="67" begincolumn="17" endcolumn="45" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Best Practices" package="tui" class="TUI" method="motion" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincaseinsensitivecomparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+<violation beginline="70" endline="70" begincolumn="17" endcolumn="43" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Best Practices" package="tui" class="TUI" method="motion" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincaseinsensitivecomparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+<violation beginline="73" endline="73" begincolumn="17" endcolumn="45" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Best Practices" package="tui" class="TUI" method="motion" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincaseinsensitivecomparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+<violation beginline="76" endline="76" begincolumn="17" endcolumn="45" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Best Practices" package="tui" class="TUI" method="motion" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincaseinsensitivecomparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+</file>
+</pmd>

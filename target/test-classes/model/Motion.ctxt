@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Motion
+comment0.text=\n\ This\ class\ define\ the\ commands\ that\ can\ be\ given\ to\ play.\n\n\ @author\ perrir@usi.ch,\ caglif@usi.ch\n\ @version\ (05.05.2022)\n
+comment1.params=grid\ sp\ game
+comment1.target=Motion(Grid,\ Spawn,\ Game)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Motion.\n\ @param\ grid\ for\ having\ a\ place\ in\ which\ have\ motions\n\ @param\ sp\ for\ having\ spawned\ numbers\ to\ move\n\ @param\ game\ to\ check\ if\ you\ won\ or\ lost\ after\ every\ move\ \n
+comment2.params=
+comment2.target=void\ rightMove()
+comment2.text=\n\ This\ method\ let\ you\ move\ right\ in\ the\ grid.\n
+comment3.params=
+comment3.target=void\ leftMove()
+comment3.text=\n\ This\ method\ let\ you\ move\ left\ in\ the\ grid.\n
+comment4.params=
+comment4.target=void\ upMove()
+comment4.text=\n\ This\ method\ let\ you\ move\ up\ in\ the\ grid.\n
+comment5.params=
+comment5.target=void\ downMove()
+comment5.text=\n\ This\ method\ let\ you\ move\ down\ in\ the\ grid.\n
+numComments=6
