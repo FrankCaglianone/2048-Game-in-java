@@ -2,10 +2,6 @@
 
 Final project for the Programming Fundamentals 2 class at USI (Universita' della Svizzera Italiana); a replica in JAVA of the famous 2048 game;
 
-
-
-
-
 2048 is a math game where, by summing numbers you have to reach the sum of 2048.
 By starting the game you can decide if start or quit.
 If decide to start you must login, inserting the player name.
@@ -14,16 +10,13 @@ Use the arrows to move the tiles and reach 2048.
 If you win a frame appears with compliments, the same if you lose but without compliments.
 
 ## Team Members
-
-* RAFFAELE PERRI (perrir@usi.ch), PerriRaffaele
-* CAGLIANONE FRANCESCO (francescocaglianone@gmail.com), FrankCaglianone
+* RAFFAELE PERRI, PerriRaffaele
+* CAGLIANONE FRANCESCO, FrankCaglianone
 
 ## Mentor
-
 * Marcilio Diego
 
 ## Project Structure
-
 This project is both a Maven project and a BlueJ project.
 You can open, compile, test, and run the code within BlueJ
 by opening `src/package.bluej`.
@@ -52,7 +45,6 @@ The classes in the `model` package need to come with unit tests.
 (The classes in the `tui` and `gui` packages do not need to be covered with tests.)
 
 ## How build using Maven
-
 In this top-level directory:
 
 ```bash
@@ -60,26 +52,23 @@ mvn compile
 ```
 
 ## How to run the application
-
 To run the application from outside BlueJ, first build it with Maven.
 This generates the compiled classes in the directory `target/classes`.
 
 ### Running the TUI
-
 To run this application, with the TUI, from the command line:
 
 ```bash
 java -cp project-2048-s-game/src tui.Main
 ```
 
-COMMANDS:
+## Commands
 1- "right": to move right
 2- "left": to move left
 3- "up": to move up
 4- "down": to move down
 
 ### Running the GUI
-
 To run this application, with the GUI, from the command line:
 
 ```bash
