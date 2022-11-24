@@ -63,10 +63,10 @@ java -cp project-2048-s-game/src tui.Main
 ```
 
 ## Commands
-1- "right": to move right
-2- "left": to move left
-3- "up": to move up
-4- "down": to move down
+1. "right": to move right
+2. "left": to move left
+3. "up": to move up
+4. "down": to move down
 
 ### Running the GUI
 To run this application, with the GUI, from the command line:
@@ -79,7 +79,7 @@ java -cp project-2048-s-game/src gui.Main
 COMMANDS:
 Keys: VK_LEFT, VK_RIGHT, VK_UP, VK_DOWN
 
-### How run the JUnit tests with Maven
+### How to run the JUnit tests with Maven
 
 ```bash
 mvn test
