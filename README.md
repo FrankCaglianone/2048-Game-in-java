@@ -115,4 +115,5 @@ mvn site
 Then open `target/site/index.html` and find the JaCoCo report.
 
 
-
+## License
+[MIT License](LICENSE)
