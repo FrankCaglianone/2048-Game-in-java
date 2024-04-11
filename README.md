@@ -1,63 +1,68 @@
-# 2048-Game
+
+
+
+## Contributions.    [People that contributed to this project]
+
+## License
+[MIT License](LICENSE)
+
+## Credits
+
+
+
+
+
+
+# 2048-Game ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=java&logoColor=white)
 
 Final project for the Programming Fundamentals 2 class at USI (Universita' della Svizzera Italiana); a replica in JAVA of the famous 2048 game;
 
 2048 is a math game where, by summing numbers you have to reach the sum of 2048.
-By starting the game you can decide if start or quit.
-If decide to start you must login, inserting the player name.
-Done that, by tapping on the screen you officially start playing.
+By starting the game, you can decide if to start or quit.
+If you decide to start, you must log in inserting the player name.
+When you're done with that, you officially start playing by tapping on the screen.
 Use the arrows to move the tiles and reach 2048.
 If you win a frame appears with compliments, the same if you lose but without compliments.
 
-## Team Members
-* RAFFAELE PERRI, PerriRaffaele
-* CAGLIANONE FRANCESCO, FrankCaglianone
 
-## Mentor
-* Marcilio Diego
-
-## Project Structure
-This project is both a Maven project and a BlueJ project.
-You can open, compile, test, and run the code within BlueJ
-by opening `src/package.bluej`.
-
-You can use Maven to compile, test, and check the code
-by running `mvn` in this top-level directory (see below).
-
+## Important Features
+This project is both a Maven project and a BlueJ project. You can open, compile, test, and run the code within BlueJ by opening `src/package.bluej`.
+You can use Maven to compile, test, and check the code by running `mvn` in this top-level directory (see below).
 You can run the code compiled by Maven from the terminal (see below).
 
+
+## Requirements      [Step-by-step instructions on how to install and get your project running locally. This might include prerequisites like required software or dependencies.]
+
+
+## Project Structure
 The code is structured into three packages:
 
 * `model` - all the model classes and their tests
 * `tui` - text user interface (works in a terminal)
 * `gui` - Swing-based graphical user interface (opens a window)
 
-Note that the classes in the `model` package MUST NOT refer to any
-classes in the `tui` or `gui` packages.
+Note that: 
+- The classes in the `model` package MUST NOT refer to any classes in the `tui` or `gui` packages.
+- The classes in the `tui` package must not refer to any classes in the `gui` package.
+- The classes in the `gui` package must not refer to any classes in the `tui` package.
+- The classes in the `tui` and `gui` packages SHOULD refer to classes in the `model` package.
+- The classes in the `model` package need to come with unit tests.
+- The classes in the `tui` and `gui` packages do not need to be covered with tests.
 
-The classes in the `tui` package must not refer to any classes in the `gui` package.
 
-The classes in the `gui` package must not refer to any classes in the `tui` package.
+## Usage
 
-The classes in the `tui` and `gui` packages SHOULD refer to classes in the `model` package.
-
-The classes in the `model` package need to come with unit tests.
-(The classes in the `tui` and `gui` packages do not need to be covered with tests.)
-
-## How build using Maven
+### How to build using Maven
+To run the application from outside BlueJ, first build it with Maven. This generates the compiled classes in the directory `target/classes`.
 In this top-level directory:
-
 ```bash
 mvn compile
 ```
 
-## How to run the application
-To run the application from outside BlueJ, first build it with Maven.
-This generates the compiled classes in the directory `target/classes`.
 
-### Running the TUI
+
+#### Running the TUI
 To run this application, with the TUI, from the command line:
-
 ```bash
 java -cp project-2048-s-game/src tui.Main
 ```
@@ -68,7 +73,7 @@ java -cp project-2048-s-game/src tui.Main
 3. "up": to move up
 4. "down": to move down
 
-### Running the GUI
+#### Running the GUI
 To run this application, with the GUI, from the command line:
 
 ```bash
@@ -113,6 +118,16 @@ mvn site
 ```
 
 Then open `target/site/index.html` and find the JaCoCo report.
+
+
+
+
+
+
+## Team Members
+* Raffaele Perri, @PerriRaffaele
+* Caglianone Francesco, @FrankCaglianone
+* Marcilio Diego (Mentor)
 
 
 ## License
